@@ -15,6 +15,7 @@ const int  UPDATE = 2;
 int main()
 {
 	// Add your code here for the server
+	SOCKET listener = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
 
 	return 0;
 }
